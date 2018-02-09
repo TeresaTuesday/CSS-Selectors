@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(73, 73, 73);
+}
+
+p {
+    text-align: center;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(242, 59, 43);
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+#hello, #intro {
+    color: white;
+}
+
+#hello {
+    font-size: 400%;
+    margin-top: -85px;
+    margin-bottom: -50px;
+    font-weight: bold;
+}
+
+#intro {
+    font-size: 200%;
+    margin-top: -100px;
+    margin-bottom: -30px;
+    padding-bottom: 10px;
+}
+
+#name {
+    background-color: white;
+    font-size: 425%;
+    line-height: 25px;
+    margin-top: -50px;
+}
+
+
